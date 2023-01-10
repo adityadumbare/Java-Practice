@@ -1,0 +1,45 @@
+class m 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World! m");
+	}
+	public void main() 
+	{
+		System.out.println("Hello World! m null");
+	}
+}
+class  n //extends m
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World! n");
+	}
+}
+
+class  b extends m
+{
+
+	@Override
+ public void main() 
+	{
+		System.out.println("Hello World! b");
+	}
+}
+
+class  v
+{
+	static public void  main(String[] args) 
+	{
+		System.out.println("Hello World! v");
+		v v=new v();
+		//v.main();
+		m m=new m();
+		m.main();
+		b b=new b();
+		b.main();
+		m.main();
+		m m1=new m();
+		m1.main();
+	}
+}

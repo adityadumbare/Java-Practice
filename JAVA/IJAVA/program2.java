@@ -1,0 +1,47 @@
+import java.util.Scanner;
+class program2
+{
+	public static void main(String[] args) 
+	{
+       Scanner s=new Scanner (System.in);
+	 //  Scanner qwe=new Scanner (System.in);
+	//   System.out.println("Enter Your name");
+	//   String name = s.next();
+	   System.out.println("Enter Your phno");
+	   long phno = s.nextLong();
+
+	   System.out.println("Enter Your id");
+		   int g = s.nextInt();
+
+	   System.out.println("Enter Your emailid");
+	    String a = s.next();
+
+		  System.out.println("Enter Your emailid 1");
+	    String b = s.nextLine();
+		  System.out.println("Enter Your emailid 2");
+	    String c = s.next();
+		  System.out.println("Enter Your emailid 3");
+	    String d = s.nextLine();
+
+		  System.out.println("Enter Your emailid 4");
+	    String e = s.nextLine();
+
+		System.out.println("Enter Your emailid 4");
+	    String f = s.nextLine();
+
+
+	  // System.out.println("Enter Your status");
+	 //  char st = s.next().charAt(0);
+
+	  //   System.out.println("Enter Your id");
+		//   int wer = s.nextInt();
+		//   System.out.println(name);
+		//   System.out.println(phno);
+		//   System.out.println(id);
+		 //  System.out.println(email);
+		  // System.out.println(st);
+		  // System.out.println(wer);
+
+
+	
+	}}

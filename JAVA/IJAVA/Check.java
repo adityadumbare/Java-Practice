@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Check
+{ static int a;
+
+static {
+	int b;
+	Scanner s=new Scanner(System.in);
+      b=s.nextInt();
+		System.out.println("Hello World!b"+b);
+}
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+      a=s.nextInt();
+	  
+		System.out.println("Hello World!a"+a);
+	}
+}

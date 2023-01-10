@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Swap1 
+{
+	public static void main(String[] args) 
+	{
+	Scanner s=new Scanner(System.in);
+	System.out.println("Enter first number");
+	int a=s.nextInt();
+	System.out.println("Enter second number");
+	int b=s.nextInt();
+	System.out.println(Swap(a,b));
+	}
+	public static int Swap(int a,int b) 
+	{
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("now the valu of a is "+a);
+		System.out.println("now the valu of b is "+b);
+		return 0;
+	}
+}

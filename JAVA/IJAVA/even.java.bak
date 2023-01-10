@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class voting 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner (System.in);
+
+		System.out.println("enter the value");
+		int a = s.nextInt();
+   
+	if(a>=18)
+		{
+			System.out.println("You are ellgible for votting");
+		}
+		else
+		{
+			System.out.println("You are not ellgible for votting");
+		}
+	}
+}

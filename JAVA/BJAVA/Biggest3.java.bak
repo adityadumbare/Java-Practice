@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Biggest3 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+	System.out.println("Enter number 1 ");
+	int a=s.nextInt();
+	System.out.println("Enter number 2 ");
+	int b=s.nextInt();
+	System.out.println("Enter number 3" );
+	int c=s.nextInt();
+	System.out.println(biggest(a,b,c));
+	}
+	public static int biggest(int a,int b,int c)
+	{
+		//a<b?a:b;
+		//c<b?c;b;
+			//System.out.println("hi");
+		int res= a>b ? a>c ? a:c :b>c?b:c;
+		 return res;
+	}
+}

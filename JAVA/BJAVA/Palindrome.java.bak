@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Palindrome 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int a=s.nextInt();
+		System.out.println(Palindrome(a));
+	}
+	public static int Palindrome(int a) 
+	{
+		int n=a;
+		int sum=0;
+		int r;
+		int temp=n;
+	while(n>0)
+		{    
+   r=n%10;
+   sum=(sum*10)+r;    
+   n=n/10;    
+  }    
+  if(temp==sum) 
+		{
+   System.out.println("palindrome number "); 
+		}
+  else    
+		{
+   System.out.println("not palindrome"); 
+		}
+	return 0;
+}  
+
+
+	
+	}
+

@@ -1,0 +1,36 @@
+class Parent 
+{
+	public static void test() 
+	{
+		System.out.println("from Parent class 0");
+	}
+}
+
+class Child extends Parent
+{
+	public void test1() 
+	{
+		System.out.println("from child class");
+	}
+	public void test() 
+	{
+		System.out.println("from child class test 1");
+	}
+}
+
+class Driver2
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("from driver1 class");
+		Child ch =new Child();
+		ch.test();
+		Parent p1=new Parent();
+		p1.test();
+		Parent p2=new Child();
+		p2.test();
+		Child ch2=new Child();
+		ch2.test();
+		ch2.test1();
+	}
+}

@@ -1,0 +1,16 @@
+class student1 
+{
+	String name;
+	int id;
+
+	student1(int sid,String sname){
+		this.id=sid;
+		this.name=sname;
+	}
+	public static void main(String[] args) 
+	{
+		//System.out.println("Hello World!");
+		student1 s1=new student1(11,"rahul");
+		System.out.println(s1.name);
+	}
+}
